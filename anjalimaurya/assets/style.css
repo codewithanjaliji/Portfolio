@@ -1,0 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-item {
+  padding-right: 20px;
+}
+
+.nav-item:hover {
+
+  text-decoration: underline;
+  color: rgb(76, 100, 76);
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#home {
+  margin-top: 70px;
+}
+
+.work {
+  animation: animate__bounce;
+  animation-duration: 2s;
+}
